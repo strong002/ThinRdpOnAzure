@@ -33,7 +33,7 @@
 	},
 	"variables": {
 		"vmName": "thinrdpvm",
-		"vmSize": "Standard_DS2_v2_Promo",
+		"vmSize": "Standard_B2s",
 		"imagePublisher": "MicrosoftWindowsServer",
 		"imageOffer": "WindowsServer",
 		"imageSKU": "2012-R2-Datacenter",
@@ -212,7 +212,7 @@
 				"osDisk": {
 					"name": "osdisk",
 					"vhd": {
-						"uri": "[concat('http://', parameters('newStorageAccountName'), '.blob.core.windows.net/vhds/', 'osdisk', '.vhd')]"
+						"uri": "[concat('http://', parameters('newStorageAccountName'), '.blob.core.usgovcloudapi.net/vhds/', 'osdisk', '.vhd')]"
 					},
 					"caching": "ReadWrite",
 					"createOption": "FromImage"
