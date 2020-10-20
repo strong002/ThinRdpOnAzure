@@ -11,7 +11,7 @@
 		"location": {
 			"type": "string",
 			"allowedValues": [ 
-			         "East US", 
+			         "usgovvirginia", 
 			         "Southeast Asia", 
 			         "West Europe" 
 			       ] 
