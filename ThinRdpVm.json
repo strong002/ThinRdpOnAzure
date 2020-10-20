@@ -33,7 +33,7 @@
 	},
 	"variables": {
 		"vmName": "thinrdpvm",
-		"vmSize": "Standard_D2s-v4",
+		"vmSize": "Standard_DS11-v2",
 		"imagePublisher": "MicrosoftWindowsServer",
 		"imageOffer": "WindowsServer",
 		"imageSKU": "2012-R2-Datacenter",
